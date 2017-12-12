@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 a:hover {
   color: #751d28;
 }
@@ -52,7 +54,7 @@ figcaption {
 h1 {
   color: #751d28;
   font-family: 'Raleway', sans-serif;
-  padding-left: 80px;
+  padding-left: 60px;
   text-transform: uppercase;
 }
 
@@ -60,7 +62,7 @@ h2 {
   color: #b4a27d;
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  padding-left: 80px;
+  padding-left: 60px;
 
 }
 .boma p {
@@ -70,7 +72,6 @@ h2 {
   width: 300px;
 
 }
-
 
 .visuel_1 {
   margin-top: -70px;
@@ -121,7 +122,7 @@ iframe {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   margin-top: -40px;
-  padding-left: 200px;
+  padding-left: -7;
 }
 
 .bordeau p {
@@ -134,6 +135,8 @@ iframe {
   padding-bottom: 30px;
   width: 300px;
 }
+
+
 
 
 h4 {
@@ -151,7 +154,6 @@ h4 {
 .bordeau li {
   list-style: none;
   color: #FFF;
-
 }
 
 .list {
@@ -243,62 +245,133 @@ h5 {
 .map_google{
   width: 100%;
 }
-@media screen and (min-width: 600px) {
-.desktop {display: block;}
 
- .motif {
-   display: block;
-   position: absolute;
-   left: 80px;
-   top: 140px;
-   z-index: -100;
- }
-
- .motif_2, .visuel_1, .viseul_2 {
-   position: absolute;
- }
-
-h2 {
-  margin-top: -28px;
+ul {
+    line-height: 3em;
 }
- .boma p {
-   margin-left: 190px;
 
- }
+@media screen and (min-width: 640px) {
+    .desktop {display: block;}
 
- h5 {
-   padding-left: 100px;
- }
+    .hotel {
+        position: relative;
+    }
+    .visuel_2 {
+      position: absolute;
+      top: 250px;
+      left: 40px;
+      width: 80%;
+    }
+    .visuel_1 {
+      width: auto;
+      position: absolute;
+      top: 130px;
+      left: 0;
+      z-index: 1;
+      width: 80%;
+    }
 
- .bordeau p {
-   margin: 0 auto;
-   margin-top: 70px;
-   width: 485px;
- }
- h4 {
-   color: #751d28;
-   display: block;
-   width: 700px;
-   margin: 0 auto;
-   margin-top: 30px;
-   font-family: 'Playfair Display', serif;
-   font-size: 60px;
-   text-align: center;
- }
+    .offre {
+        font-size: 30px;
+    }
 
- .list {
-   padding-top: 70px;
-   text-align: left;
- }
- .map p {
-   width: 400px;
-   padding-left: 200px;
+    .text_cupidon {
+        font-size: 25px;
+        margin-top: -10px;
+    }
 
- }
+    .bordeau p {
+        margin-top: -5px;
+    }
 
+    .icon img {
+        width: 25px;
+        padding-top: 10px;
+    }
+
+    .text {
+        padding-top: 15px;
+        line-height: 15px;
+    }
+
+    ul {
+        line-height: 2em;
+    }
+
+    h4 {
+        margin-bottom: -15px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
+
+.img_cupidon {
+    width: 100%;
+}
+    .desktop {display: block;}
+
+    .offre {
+      font-family: 'Raleway', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    .text_cupidon {
+      color: #FFF;
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      margin-top: -40px;
+      padding-left: -7;
+    }
+
+     .motif {
+       display: block;
+       position: absolute;
+       left: 80px;
+       top: 140px;
+       z-index: -100;
+     }
+
+     .motif_2, .visuel_1, .viseul_2 {
+       position: absolute;
+     }
+
+    h2 {
+      margin-top: -28px;
+    }
+     .boma p {
+       margin-left: 190px;
+
+     }
+
+     h5 {
+       padding-left: 100px;
+     }
+
+     .bordeau p {
+       margin: 0 auto;
+       margin-top: 70px;
+       width: 485px;
+     }
+     h4 {
+       color: #751d28;
+       display: block;
+       width: 700px;
+       margin: 0 auto;
+       margin-top: 30px;
+       font-family: 'Playfair Display', serif;
+       font-size: 60px;
+       text-align: center;
+     }
+
+     .list {
+       padding-top: 70px;
+       text-align: left;
+     }
+     .map p {
+       width: 400px;
+       padding-left: 200px;
+
+     }
 
   figcaption {
       display: block;
@@ -402,6 +475,35 @@ h2 {
 
   .credit {
     padding-left: 5%;
+  }
+  footer img {
+      width: 100%;
+  }
 
+  .offre {
+      font-size: 30px;
+  }
+
+  .text_cupidon {
+      font-size: 25px;
+      margin-top: -10px;
+  }
+
+  .bordeau p {
+      padding-top: 25px;
+  }
+
+  .icon img {
+      width: 55px;
+      padding-top: 10px;
+  }
+
+  .text {
+      padding-top: 15px;
+      line-height: 35px;
+  }
+
+  ul {
+      line-height: 2em;
   }
 }
